@@ -1,14 +1,9 @@
 pipeline {
-    agent { label 'linux' }
+    agent any
     stages {
         stage('First') {
             steps {
-                sh '/tmp/myshell.sh'
-            }
-        }
-        stage('Second') {
-            steps {
-                sh '/tmp/your-shell.sh'
+                echo "My Pipeline created"
             }
         }
     }
