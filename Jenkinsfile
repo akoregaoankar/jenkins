@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('test') {
             steps {
-                echo "Abhijeet Koregaonkar" >> /tmp/abhi.txt
+                sh /tmp/myshell.sh
             }
         }
     }
