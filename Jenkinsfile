@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('test') {
             steps {
-                echo "Pipeline output" >> /tmp/pipeline.txt
+                  echo "Pipeline output" >> /tmp/pipeline.txt
             }
         }
     }
