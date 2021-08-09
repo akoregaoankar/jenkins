@@ -3,8 +3,7 @@ pipeline {
     stages {
         stage('test') {
             steps {
-                echo "Pipeline output" >> /tmp/pipeline.txt
+                echo "Abhijeet Koregaonkar" >> /tmp/abhi.txt
             }
         }
-    }
 }
