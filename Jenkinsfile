@@ -1,10 +1,9 @@
 pipeline {
-    agent any
+    agent linux
     stages {
         stage('test') {
             steps {
-                echo "Hello there !!"
-                echo "Abhijeet Koregaonkar"
+                echo "Pipeline output" >> /tmp/pipeline.txt
             }
         }
     }
