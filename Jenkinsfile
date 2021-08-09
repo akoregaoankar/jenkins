@@ -6,4 +6,5 @@ pipeline {
                 echo "Abhijeet Koregaonkar" >> /tmp/abhi.txt
             }
         }
+    }
 }
